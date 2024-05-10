@@ -142,7 +142,7 @@ function NavList() {
           color="gray"
           className="font-medium text-blue-gray-500"
         >
-          <MenuItem className="flex items-center gap-2 lg:rounded-full">
+          <MenuItem className="flex items-center lg:rounded-full">
             {React.createElement(icon, { className: "h-[18px] w-[18px]" })}{" "}
             <span className="text-gray-900"> {label}</span>
           </MenuItem>
@@ -165,14 +165,14 @@ export function ComplexNavbar() {
   }, []);
 
   return (
-    <Navbar className="max-w-screen-xl p-2 mx-auto mt-3 bg-white lg:rounded-full lg:pl-6">
+    <Navbar className="fixed max-w-screen-xl p-2 mt-3 bg-white rounded-full lg:pl-6">
       <div className="relative flex items-center justify-between mx-auto text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          <img src=""></img>
+        <img src="/ECO-SACKLogo-removebg-preview.png" alt="Ecosack Solutions" className="object-contain w-16 h-16" />
         </Typography>
         <div className="hidden lg:block">
           <NavList />

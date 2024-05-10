@@ -14,6 +14,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.bg-backg{
+  background: conic-gradient(from 90deg at 50% 50%, rgba(0, 207, 46, 1) 0%, rgba(4, 250, 0, 1) 14%, rgba(110, 255, 93, 1) 48%, rgba(176, 255, 84, 1) 52%, rgba(216, 238, 130, 1) 100%);
+}
 
 
 
