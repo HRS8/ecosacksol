@@ -20,7 +20,7 @@ function SpinningGlobe({ className }) {
     <div className={className}>
       <Canvas>
         <ambientLight />
-        <pointLight position={[10, 10, 10]} />
+        <pointLight/>
         <Suspense fallback={null}>
           <mesh ref={mesh}>
             <Model url="https://github.com/HRS8/ecosacksol/blob/main/ecosacksol/public/earth/scene.gltf" />
