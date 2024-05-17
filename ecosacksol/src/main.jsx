@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <ComplexNavbar className="z-10"/>
           </div>
           <div>
-            <img src="https://github.com/HRS8/ecosacksol/blob/main/ecosacksol/public/Picsart_24-05-17_22-12-01-268.png" alt="plastic earth"/>
+            <img src="https://drive.google.com/file/d/1inAr_AGw2qWToJWNXPzTEVtxXTByPT1H/view?usp=sharing" alt="plastic earth"/>
           </div>
         </div>
     </ThemeProvider>
